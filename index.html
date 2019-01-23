@@ -21,19 +21,19 @@
     let url = 'wss://www.bitmex.com/realtime?subscribe=trade:XBTUSD'
     let ws = new WebSocket(url);
     ws.onopen = function(evt) {
-        console.log('socket open')
+       console.log('socket open')
     };
-    ws.onmessage = function(evt) {
-        let data = JSON.parse(evt.data)
-        let vprice = data["data"][0].price;
-        app.price = Math.round(vprice);
-    };
-    ws.onclose = function(evt) {
-        console.log('socket closed')
-    };
-    ws.onerror = function(evt) {
+	  ws.onmessage = function(evt) {
+       let data = JSON.parse(evt.data)
+       let vprice = data["data"][0].price;
+       app.price = vprice;
+	  };
+	  ws.onclose = function(evt) {
+       console.log('socket closed')
+	 	};
+	  ws.onerror = function(evt) {
        console.log('socket connection error')
-    };
+	  };
 
 </script>
 
