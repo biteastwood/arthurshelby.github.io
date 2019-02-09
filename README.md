@@ -8,9 +8,9 @@ Default view is ghost screen - ie invisible, just
  of the scren to view the price. (Optimized for degens working without pissing off the boss) 
 
 ## Another version is available for home 
- Big chad display - [Click here to view](https://arthurshelby.github.io/normal.html)
+ Big chad display - [Click here to view](https://biteastwood.github.io/xbt-live/normal.html)
 
 
 ## Advanced version with basic alerts 
- Big chad display + alerts - [Click here to view](https://arthurshelby.github.io/advanced.html)
+ Big chad display + alerts - [Click here to view](https://biteastwood.github.io/xbt-live/advanced.html)
 
